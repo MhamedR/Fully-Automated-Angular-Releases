@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "fully-automated-release": [
+        "dist/fully-automated-release/fully-automated-release",
+        "dist/fully-automated-release"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
